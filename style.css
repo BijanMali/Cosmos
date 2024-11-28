@@ -287,3 +287,142 @@ hr{
   padding: 20px 0;
   font-size: 0.9rem;
 }
+
+/* Pricing Section */
+.pricing-section {
+  padding: 50px 20px;
+  text-align: center;
+  background: #454545;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #ffc2c2;
+}
+
+/* Pricing Grid */
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Pricing Card */
+.pricing-card {
+  background: #000000;
+  color: #eeeeee;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.pricing-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 12px rgba(173, 136, 0, 0.918);
+}
+
+.plan-title {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+  color: #f6ff00;
+}
+
+.plan-price {
+  font-size: 2.5rem;
+  margin: 20px 0;
+  color: #d4d4d4;
+}
+
+.plan-price span {
+  font-size: 1rem;
+  color: #f8f8f8;
+}
+
+.features-list {
+  list-style: none;
+  margin: 20px 0;
+  padding: 0;
+  color: #d7d7d7;
+}
+
+.features-listX {
+  list-style: none;
+  margin: 20px 0;
+  padding: 0;
+  color: #eeeeee;
+}
+
+#s{
+  color: #e0e0e0;
+}
+
+.features-list li {
+  margin: 10px 0;
+  font-size: 1rem;
+}
+
+.btn {
+  display: inline-block;
+  background: #fff200;
+  color: #272727;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #ffffff;
+  box-shadow: #ddcf39;
+}
+
+
+.ParentTerminal {
+  background-color: rgba(0, 0, 0, 0);
+  color: rgb(218, 218, 218);
+  font-family: "Courier New", Courier, monospace;
+  margin: 0;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.terminal {
+  background-color: #0f1300;
+  border: 2px solid rgb(255, 255, 255);
+  width: 80%;
+  max-width: 800px;
+  height: 40vh;
+  padding: 10px;
+  overflow-y: auto;
+  box-shadow: 0 0 20px rgb(234, 219, 19);
+}
+
+#output {
+  white-space: pre-wrap;
+  line-height: 1.5;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+}
+
+.prompt {
+  margin-right: 5px;
+}
+
+#input {
+  background: none;
+  border: none;
+  color: rgb(255, 217, 0);
+  outline: none;
+  flex-grow: 1;
+  font-family: inherit;
+}
