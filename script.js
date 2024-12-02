@@ -38,8 +38,9 @@ function handleCommand(command) {
             addOutput("Terminal Fucked");
             Sleep(1000);
             addOutput("Terminal Fucked");
+        }
     }
-    else if(command === "matrix"){
+    else if(command === "Skillarger"){
         
         addOutput("Welcome to skillarger 😁");
         
