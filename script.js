@@ -16,7 +16,8 @@ const commands = {
   clear: "clear",
   hi: "Hi this is cosmos ai .. tell me how can help you today?",
   hello: "Hi this is cosmos ai .. tell me how can help you today?",
-  matrix:'matrix'
+  matrix:'matrix',
+  Skillarger : 'Skillarger'
 };
 
 inputElement.addEventListener("keydown", (event) => {
@@ -37,7 +38,11 @@ function handleCommand(command) {
             addOutput("Terminal Fucked");
             Sleep(1000);
             addOutput("Terminal Fucked");
-        }
+    }
+    else if(command === "matrix"){
+        
+        addOutput("Welcome to skillarger 😁");
+        
     } 
     else {
       addOutput(commands[command]);
